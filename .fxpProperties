@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fxpProperties abbreviated="false" authoringTool="Flex Builder" compiles="true" parentProject="35263eb5-597f-4921-85d5-f3a397947de2" projectUUID="35263eb5-597f-4921-85d5-f3a397947de2" pureCatalystProject="false" sdkVersion="4.6.0" uuid="6e296cdf-5805-4067-9f30-068219bde7aa" version="15">
+  <projects/>
+  <src/>
+  <swc>
+    <linked location="sdkPlaceHolder" path="sdkPlaceHolder" position="0" uuid="6e296cdf-5805-4067-9f30-068219bde7aa"/>
+    <linked location="/Users/binli/Documents/LiBin/46寸/SWC/FLVPlaybackAS3.swc" path="\linked-swc\FLVPlaybackAS3.swc" position="1" uuid="6e296cdf-5805-4067-9f30-068219bde7aa"/>
+    <linked location="/Users/binli/Documents/LiBin/46寸/SWC/as3crypto.swc" path="\linked-swc\as3crypto.swc" position="2" uuid="6e296cdf-5805-4067-9f30-068219bde7aa"/>
+  </swc>
+  <misc/>
+  <theme/>
+  <mxmlFormattingPrefs groupAttributesByState="false" maxLineWidth="0" mxmlAlignAttributes="false" mxmlKeepAttributeValuesOrganized="false"/>
+</fxpProperties>

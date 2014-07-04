@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="core.constant.Const"/>
+    <classEntry path="core.date.CDate"/>
+    <classEntry path="core.tween.plugins.BezierPlugin"/>
+    <classEntry path="core.tween.plugins.QuaternionsPlugin"/>
+    <classEntry path="core.tween.plugins.VisiblePlugin"/>
+    <classEntry path="core.tween.utils.tween.BlurFilterVars"/>
+    <classEntry path="core.tween.plugins.FilterPlugin"/>
+    <classEntry path="core.tween.utils.tween.TweenInfo"/>
+    <classEntry path="core.tween.easing.Expo"/>
+    <classEntry path="core.tween.plugins.BevelFilterPlugin"/>
+    <classEntry path="core.tween.plugins.FramePlugin"/>
+    <classEntry path="core.tween.utils.tween.TransformAroundCenterVars"/>
+    <classEntry path="core.tween.plugins.AutoAlphaPlugin"/>
+    <classEntry path="core.tween.plugins.ColorTransformPlugin"/>
+    <classEntry path="core.tween.easing.Quint"/>
+    <classEntry path="core.tween.plugins.RoundPropsPlugin"/>
+    <classEntry path="core.tween.utils.tween.FilterVars"/>
+    <classEntry path="core.tween.events.TweenEvent"/>
+    <classEntry path="core.tween.easing.Elastic"/>
+    <classEntry path="core.tween.utils.tween.SubVars"/>
+    <classEntry path="core.tween.plugins.DropShadowFilterPlugin"/>
+    <classEntry path="core.tween.plugins.FastTransformPlugin"/>
+    <classEntry path="core.tween.utils.tween.ColorMatrixFilterVars"/>
+    <classEntry path="core.tween.utils.tween.GlowFilterVars"/>
+    <classEntry path="core.tween.plugins.EndArrayPlugin"/>
+    <classEntry path="core.tween.plugins.FrameLabelPlugin"/>
+    <classEntry path="core.tween.plugins.TintPlugin"/>
+    <classEntry path="core.tween.easing.Strong"/>
+    <classEntry path="core.tween.easing.Quart"/>
+    <classEntry path="core.tween.easing.Back"/>
+    <classEntry path="core.tween.plugins.SetSizePlugin"/>
+    <classEntry path="core.tween.utils.tween.ColorTransformVars"/>
+    <classEntry path="core.tween.easing.Circ"/>
+    <classEntry path="core.tween.plugins.GlowFilterPlugin"/>
+    <classEntry path="core.tween.plugins.ShortRotationPlugin"/>
+    <classEntry path="core.tween.plugins.RemoveTintPlugin"/>
+    <classEntry path="core.tween.easing.Sine"/>
+    <classEntry path="core.tween.utils.tween.TweenMaxVars"/>
+    <classEntry path="core.tween.plugins.VolumePlugin"/>
+    <classEntry path="core.tween.utils.tween.ArrayTweenInfo"/>
+    <classEntry path="core.tween.utils.tween.TransformAroundPointVars"/>
+    <classEntry path="core.tween.plugins.ColorMatrixFilterPlugin"/>
+    <classEntry path="core.tween.utils.tween.TweenLiteVars"/>
+    <classEntry path="core.tween.TweenMax"/>
+    <classEntry path="core.tween.plugins.ScalePlugin"/>
+    <classEntry path="core.tween.TweenLite"/>
+    <classEntry path="core.tween.easing.Bounce"/>
+    <classEntry path="core.tween.utils.tween.BevelFilterVars"/>
+    <classEntry path="core.timer.TimerDevice"/>
+    <classEntry path="core.tween.plugins.BezierThroughPlugin"/>
+    <classEntry path="core.tween.easing.Cubic"/>
+    <classEntry path="core.tween.plugins.BlurFilterPlugin"/>
+    <classEntry path="core.tween.easing.Quad"/>
+    <classEntry path="core.tween.plugins.HexColorsPlugin"/>
+    <classEntry path="core.tween.plugins.TweenPlugin"/>
+    <classEntry path="core.tween.utils.tween.DropShadowFilterVars"/>
+    <classEntry path="core.tween.easing.Linear"/>
+    <classEntry path="core.encrypt.Encrypt"/>
+    <classEntry path="core.filter.CFilter"/>
+    <classEntry path="core.bitmap.CBitmap"/>
+    <classEntry path="core.baseComponent.CSprite"/>
+    <classEntry path="core.interfaces.ClearAll"/>
+    <classEntry path="core.baseComponent.CRVideo"/>
+    <classEntry path="core.cache.CacheData"/>
+    <classEntry path="core.layout.PictureZoom"/>
+    <classEntry path="core.baseComponent.CImage"/>
+    <classEntry path="core.baseComponent.CCImage"/>
+    <classEntry path="core.fontFormat.CFontFormat"/>
+    <classEntry path="core.baseComponent.CCScrollBar"/>
+    <classEntry path="core.baseComponent.AudioButton"/>
+    <classEntry path="core.baseComponent.TextButton"/>
+    <classEntry path="core.baseComponent.CTextButton"/>
+    <classEntry path="core.baseComponent.CutImage"/>
+    <classEntry path="core.baseComponent.CStateImage"/>
+    <classEntry path="core.interfaces.MoveLeftRightItem"/>
+    <classEntry path="core.layout.MoveManger"/>
+    <classEntry path="core.baseComponent.HScroller"/>
+    <classEntry path="core.baseComponent.LoopAtlas"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
