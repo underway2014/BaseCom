@@ -13,5 +13,6 @@ package core.filter
 		public static var blueYellowFilter:Array = [new GlowFilter(0xffffff,0.75,20,20,2,1,false,false),new GlowFilter(0xdfab2,1,5,5,2,1,true)];//,new GlowFilter(182245252,1,10,110,2,1,true)
 		public static var grayFilter:Array = [new ColorMatrixFilter([0.3,0.6,0,0,0,0.3,0.6,0,0,0,0.3,0.6,0,0,0,0,0,0,1,0])];
 		public static var whiteFilter:Array = [new GlowFilter(0xffffff,1,4,4,8)];
+		
 	}
 }

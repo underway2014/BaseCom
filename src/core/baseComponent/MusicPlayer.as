@@ -13,6 +13,7 @@ package core.baseComponent
 		private var song:SoundChannel;
 		private var autoPlay:Boolean;
 		private var isLoop:Boolean;
+		private var _isPause:Boolean = true;
 		/**
 		 * 
 		 * @param _url
@@ -29,6 +30,17 @@ package core.baseComponent
 			sound.addEventListener(Event.COMPLETE,loadOkHandler);
 			sound.addEventListener(IOErrorEvent.IO_ERROR,errorHandler);
 		}
+
+		public function get isPause():Boolean
+		{
+			return _isPause;
+		}
+
+		public function set isPause(value:Boolean):void
+		{
+			_isPause = value;
+		}
+
 		private function loadOkHandler(event:Event):void
 		{
 			if(autoPlay)
@@ -60,6 +72,7 @@ package core.baseComponent
 			{
 				_currentPosition = beginTime;
 			}
+			isPause = false;
 			song = sound.play(_currentPosition);
 			dispatchEvent(new Event(BEGIN_PLAYING));
 			song.addEventListener(Event.SOUND_COMPLETE,playOverHandler);
@@ -82,6 +95,7 @@ package core.baseComponent
 		 */		
 		public function pause():void
 		{
+			isPause = true;
 			_currentPosition = song.position;
 			dispatchEvent(new Event(STOP_PLAYING));
 			song.stop();
@@ -96,6 +110,7 @@ package core.baseComponent
 			}
 			else
 			{
+				isPause = true;
 				dispatchEvent(new Event(PLAY_OVER));
 			}
 		}
