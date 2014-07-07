@@ -45,7 +45,7 @@ package core.baseComponent
 		private var dir:int = -1;
 		private function autoMove(event:TimerEvent):void
 		{
-			var endX:int = viewContain.x + 1080 * dir;
+			var endX:int = viewContain.x + 1494 * dir;
 			for each(var view:Sprite in manger)
 			{
 //				endX = view.x + dir * view.width;
@@ -103,7 +103,7 @@ package core.baseComponent
 			var n:int = - 1;
 			for each(var view:Sprite in dataViewArr)
 			{
-				view.x = n * 1080;
+				view.x = n * 1494;
 				viewContain.addChild(view);
 				n++;
 			}
