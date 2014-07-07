@@ -9,8 +9,8 @@
           <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/core.swc" useDefaultLinkType="false"/>
         </excludedEntries>
       </libraryPathEntry>
-      <libraryPathEntry kind="3" linkType="1" path="swc/as3crypto.swc" useDefaultLinkType="false"/>
-      <libraryPathEntry kind="3" linkType="1" path="swc/FLVPlaybackAS3.swc" useDefaultLinkType="false"/>
+      <libraryPathEntry kind="3" linkType="1" path="G:/FLASH Project/SWC/as3crypto.swc" useDefaultLinkType="false"/>
+      <libraryPathEntry kind="3" linkType="1" path="G:/FLASH Project/SWC/FLVPlaybackAS3.swc" useDefaultLinkType="false"/>
     </libraryPath>
     <sourceAttachmentPath/>
   </compiler>
@@ -22,5 +22,8 @@
   <buildCSSFiles/>
   <flashCatalyst validateFlashCatalystCompatibility="false"/>
 </actionScriptProperties>
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 28571a6910b550cf7e648fce33512c7d45552377
